@@ -3,7 +3,13 @@
 @section('title', "creazione nuovo post")
 
 @section("page_header")
-<div class="container py-3"><h1>Creazione Post</h1></div>
+<header class="py-5 bg-light border-bottom mb-4">
+  <div class="container">
+      <div class="text-center my-5">
+          <h1 class="fw-bolder">Creazione Post</h1>
+      </div>
+  </div>
+</header>
 @endsection
 
 @section('main_content')
