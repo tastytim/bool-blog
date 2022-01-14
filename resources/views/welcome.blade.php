@@ -10,4 +10,7 @@
 
 @section("main_content")
 <h2>Benvenuto sul blog di Boolean</h2>
+<div><button class="btn btn-dark">
+<a href={{route("posts.create")}}>Create Post</a></button></div>
+
 @endsection
