@@ -43,7 +43,7 @@
             value="{{ old('author') ?? $post->author}}">
         </div>
         <div class="mb-3">
-            <label for="coverImg" class="form-label">coverImg</label>
+            <label for="coverImg" class="form-label">Immagine di copertina</label>
             <input type="text" class="form-control" id="coverImg" name="coverImg"
             value="{{ old('coverImg') ?? $post->coverImg}}">
         </div>

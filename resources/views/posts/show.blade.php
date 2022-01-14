@@ -19,11 +19,11 @@
 
 <div class="container">
     <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="{{ $post->coverImg }}" class="card-img-top" alt="...">
         <div class="card-body">
             <h3 class="card-title">{{ $post->title}}</h3>
             <h5>{{ $post->subtitle}}</h5>
-            <p class="card-text">{{ $post->content}}</p>
+            <p class="card-text">{!! $post->content !!}</p>
             <h6>{{ $post->author}}</h6>
             <h6>{{$post->category}}</h6>
             <form action="{{ route('posts.edit', $post->id)}}" method="get">
