@@ -33,10 +33,12 @@
   <label for="category" class="form-label">category</label>
   <input type="text" class="form-control" id="category" name="category">
 </div>
-</form>
+
 <div class="text-center">
   <button type="submit" class="btn btn-success">Crea</button>
 </div>
+</form>
+
 
 
 <script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
