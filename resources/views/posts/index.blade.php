@@ -1,4 +1,4 @@
-@extend("partials.default")
+@extend("layouts.default")
 
 
 @section("main_content")
@@ -8,7 +8,7 @@
     <button><a href="{{route("posts.create")}}">Aggiungi nuova ricetta</button>
     <ul class="cards post_ricetta">
         @foreach($posts as $post)
-        <li><a href="{{ route('post.show', $post->id) }}">
+        <li><a href="{{ route('posts.show', $post->id) }}">
                 <div>
                     <img src="{{$post->coverImg}}">
                 </div>
