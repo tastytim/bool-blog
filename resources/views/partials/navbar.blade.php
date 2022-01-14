@@ -7,8 +7,6 @@
                 <li class="nav-item"><a class="nav-link link-light" href="{{route("posts.create")}}">Create</a></li>
                {{--  <li class="nav-item"><a class="nav-link link-light" href="{{route("")}}">Add</a></li>
                --}}  <li class="nav-item"><a class="nav-link link-light" href="{{route('home.index')}}">Home</a></li>
-
-
             </ul>
         </div>
     </div>

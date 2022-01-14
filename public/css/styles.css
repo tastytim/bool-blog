@@ -307,6 +307,12 @@ svg {
   height: 250px;
 }
 
+ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
