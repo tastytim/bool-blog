@@ -299,6 +299,12 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  
+}
+
+.post_ricetta{
+  width: 100%;
+  height: 250px;
 }
 
 table {
