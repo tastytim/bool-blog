@@ -8,7 +8,6 @@
     <div class="container">
         <div class="text-center my-5">
             <h1 class="fw-bolder">Welcome to HomePage!</h1>
-            
         </div>
     </div>
 </header>
