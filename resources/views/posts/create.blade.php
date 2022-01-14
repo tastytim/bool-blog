@@ -2,7 +2,13 @@
 
 @section('title', "creazione nuovo post")
 
+@section("page_header")
+<div class="container py-3"><h1>Creazione Post</h1></div>
+@endsection
+
 @section('main_content')
+<form action="{{route('posts.store')}}" method="post">
+@csrf
 <div class="mb-3">
   <label for="title" class="form-label">Title</label>
   <input type="text" class="form-control" id="title" name="title">
@@ -27,8 +33,15 @@
   <label for="category" class="form-label">category</label>
   <input type="text" class="form-control" id="category" name="category">
 </div>
+</form>
 <div class="text-center">
   <button type="submit" class="btn btn-success">Crea</button>
 </div>
+
+
+<script src="//js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
 @endsection
