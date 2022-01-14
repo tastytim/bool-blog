@@ -21,7 +21,7 @@ class PostsTableSeeder extends Seeder
             $newPost->author = $faker->firstNameFemale;
             $newPost->coverImg = $faker->imageUrl(null, null, 'food');
             $newPost->category = $faker->word();
-
+            $newPost->save();
             
         }
         
