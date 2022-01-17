@@ -97,7 +97,7 @@ class PostController extends Controller
 
         $post->update($data);
 
-        return redirect()->route('post.show', $post->id);
+        return redirect()->route('posts.show', $post->id);
     }
 
     /**
